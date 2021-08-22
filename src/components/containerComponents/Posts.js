@@ -4,6 +4,15 @@ export default function Posts() {
 
     const postsData = [
         {
+            user: {name: "meowed", image: "./imagens/meowed.jpeg"},
+            lastUser: {name: "respondeai", image: "./imagens/responde-ai.jpeg", likes: "101.523"},
+            comments: [
+                {name: "bad-vibes", comment: "A great Actress!!"},
+                {name: "smallcutecats", comment: "Real beautiful woman"}
+            ],
+            content: {image: "", videoMp4: "./videos/wonder-woman.mp4", videoOgv: "./videos/wonder-woman.ogv", isVideo: true}
+        },
+        {
             user: {name: "memeriagourmet", image: "./imagens/memeriagourmet.jpeg"},
             lastUser: {name: "respondeai", image: "./imagens/responde-ai.jpeg", likes: "101.523"},
             comments: [
@@ -32,7 +41,7 @@ export default function Posts() {
         },
         {
             user: {name: "barked", image: "./imagens/barked.jpeg"},
-            lastUser: {name: "adorable_animals", image: "./imagens/adorable_animals.jpeg", likes: "99.159"},
+            lastUser: {name: "adorable_animals", image: "./imagens/adorableanimals.jpeg", likes: "99.159"},
             comments: [
                 {name: "catanacomics", comment: "so cute"},
                 {name: "respondeai", comment: "pretyyyy"}

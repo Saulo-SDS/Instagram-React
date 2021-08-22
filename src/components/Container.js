@@ -1,4 +1,5 @@
 import Posts from "./containerComponents/Posts";
+import SideBar from "./containerComponents/SideBar";
 import Stories from "./containerComponents/Stories";
 
 export default function Container() {
@@ -8,6 +9,7 @@ export default function Container() {
                 <Stories/>
                 <Posts/>
             </div>
+            <SideBar/>
         </div>
     );
 }

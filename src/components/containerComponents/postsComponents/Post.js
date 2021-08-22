@@ -1,7 +1,7 @@
-import TopPost from "./TopPost"
-import Content from "./Content"
-import FooterPost from "./FooterPost"
-import Comments from "./Comments"
+import TopPost from "./postComponents/TopPost"
+import Content from "./postComponents/Content"
+import FooterPost from "./postComponents/FooterPost"
+import Comments from "./postComponents/Comments"
 
 export default function Post(props) {
     return (

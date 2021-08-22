@@ -13,10 +13,10 @@ export default function Stories() {
             name: "barked", image: "./imagens/barked.jpeg"
         },
         {
-            name: "nayhanwpyle...", image: "./imagens/nathanwpylestrangeplanet.jpeg"
+            name: "nathanwpyle...", image: "./imagens/nathanwpylestrangeplanet.jpeg"
         },
         {
-            name: "wawawiwa...", image: "./imagens/wawawiwacomicsa.jpeg"
+            name: "wawawiwac...", image: "./imagens/wawawiwacomicsa.jpeg"
         },
         {
             name: "respondeai", image: "./imagens/responde-ai.jpeg"

@@ -1,11 +1,13 @@
 // eslint-disable-next-line
 import ReactDOM from "react-dom";
+import Container from "./components/Container";
 import Top from "./components/Top";
       
 function App() {
   return (
       <div>
         <Top/>
+        <Container/>
       </div>
   );
 }

@@ -84,7 +84,7 @@ input {
     display: flex;
 }
 
-.geral{
+.general{
     margin-top: 88px;
     box-sizing: border-box;
 }
@@ -533,7 +533,7 @@ a {
     border: none;
   }
   
-  .geral{
+  .general{
     margin-top: 55px;
     width: 100%;
   }

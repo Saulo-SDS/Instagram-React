@@ -1,6 +1,6 @@
 import UserStorie from "./storiesComponents/UserStorie";
 
-export function Stories() {
+export default function Stories() {
     
     const storiesData = [
         { 
@@ -31,6 +31,7 @@ export function Stories() {
     return (
         <div class="stories">
             {storiesData.map((storiesData) => <UserStorie name={storiesData.name} image={storiesData.image}/>)}
+            <a href="#"><ion-icon class="button-stories" name="chevron-forward-circle-sharp"></ion-icon></a>
         </div>
     );
 }

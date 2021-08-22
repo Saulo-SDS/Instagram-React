@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-body {
+.root > div{
     font-family: 'Roboto',  sans-serif;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
     position: fixed;
     top:0;
     right:0;
-    z-index: 3;
+    z-index: 4;
     box-sizing: border-box;
 }
 
@@ -277,7 +277,6 @@ video {
   position: relative;
   align-items: center;
   align-content: center;
-  justify-items: center;
   height: 20px;
   margin-bottom: 5px;
 }

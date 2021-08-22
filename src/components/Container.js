@@ -1,3 +1,4 @@
+import BottomBar from "./BottomBar";
 import Posts from "./containerComponents/Posts";
 import SideBar from "./containerComponents/SideBar";
 import Stories from "./containerComponents/Stories";
@@ -10,6 +11,7 @@ export default function Container() {
                 <Posts/>
             </div>
             <SideBar/>
+            <BottomBar/>
         </div>
     );
 }

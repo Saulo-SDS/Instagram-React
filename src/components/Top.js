@@ -7,12 +7,19 @@ export default function Top() {
         <header class="top-bar">
             <div class="top">
                 <LogoDesktop/>
-                <div class="pesquisa">
-                    <input class="search-box" type="search" placeholder="Pesquisar"/>
-                </div>                
+                <BoxSearch/>
                 <LinksTop/>
             </div>
             <TopMobile/>
         </header>
+    );
+}
+
+function BoxSearch() {
+
+    return (
+        <div class="pesquisa">
+            <input class="search-box" type="search" placeholder="Pesquisar"/>
+        </div>      
     );
 }

@@ -1,4 +1,4 @@
-import Suggestion from "./Suggestion";
+import Suggestion from "./suggesitonsComponents/Suggestion";
 
 export default function Suggestions() {
     const suggestionsData = [
@@ -35,7 +35,7 @@ function Menu() {
               <p class="suggestions-for-you">Sugestões para você</p>
           </div>
           <div>
-            <a href="#"><p class="see-all">Ver tudo</p></a>
+            <a href="#/"><p class="see-all">Ver tudo</p></a>
           </div>
         </div>
     );

@@ -14,7 +14,7 @@ export default function Content(props) {
     return (
         <div>
             <div>
-                <img src={props.content.image} class="image-post"/>
+                <img src={props.content.image} class="image-post" alt={props.content.image}/>
             </div>
         </div>
 

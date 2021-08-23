@@ -30,8 +30,8 @@ export default function Stories() {
 
     return (
         <div class="stories">
-            {storiesData.map((storiesData) => <UserStorie name={storiesData.name} image={storiesData.image}/>)}
-            <a href="#"><ion-icon class="button-stories" name="chevron-forward-circle-sharp"></ion-icon></a>
+            {storiesData.map((storieData) => <UserStorie name={storieData.name} image={storieData.image}/>)}
+            <a href="#/"><ion-icon class="button-stories" name="chevron-forward-circle-sharp"></ion-icon></a>
         </div>
     );
 }
